@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="cordova/node_modules/properties-parser/test"/>
+	<classpathentry kind="src" path="CordovaLib/build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="CordovaLib/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="CordovaLib/build/generated/source/buildConfig/release"/>
+	<classpathentry kind="src" path="CordovaLib/src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="build/generated/mockable-android-26.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/debug/jars/classes.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_1d04c89f0e62bc9f9c0010c9192cfa5ba5b2ce07.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/pre-dexed/debug/CordovaLib-6.3.0-debug_65c238abf0226623cbab7ac3bcd88ebfb7af89dc.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/pre-dexed/debug/debug_3d737a452a20415e2372e7d5f434d23375b28ba4.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/pre-dexed/debug/internal_impl-24.1.1_c460818a0fd986f000275a58df20e4612afd6dc2.jar"/>
+	<classpathentry kind="lib" path="build/intermediates/pre-dexed/debug/support-annotations-24.1.1_1f44f7b6f6c0f1f83d7c7ee2a80eab6344c3a74f.jar"/>
+	<classpathentry kind="lib" path="CordovaLib/build/intermediates/bundles/debug/classes.jar"/>
+	<classpathentry kind="lib" path="CordovaLib/build/intermediates/bundles/release/classes.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="CordovaLib/build/intermediates/classes/debug"/>
+</classpath>

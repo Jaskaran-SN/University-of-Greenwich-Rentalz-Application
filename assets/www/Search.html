@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Rentalz Search Property</title> 
+	<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+	<script src="js/jquery-1.9.0.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header" data-theme="b">
+		<h1><a href="index.html">Rentalz</a></h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+        <div data-role="fieldcontain">
+                    
+            <label for="selType">Property type</label>
+            <select id="selType" name="type" required>
+                <option value="Apartment">Apartment</option>
+				<option value="Bungalow">Bungalow</option>
+				<option value="Flat">Flat</option>
+				<option value="Garage">Garage</option>
+                <option value="House">House</option>
+            </select>
+            
+            <label for="selRoom">Number of Bedrooms</label>
+            <select id="selRoom" name="rooms" required>
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+				 <option value="10">10</option>
+				 <option value="11">11</option>
+				 <option value="12">12</option>
+            </select>
+            
+            <label for="selFurnish">Furnishing Type</label>
+            <select id="selFurnish" name="furnishing" required>
+                 <option value="Furnished">Furnished</option>
+				 <option value="Semi Furnished">Semi Furnished</option>
+                 <option value="Unfurnished">Unfurnished</option>
+            </select>
+            
+            <label for="selPrice">Monthly Rent (Max)</label>
+            <select id ="selPrice" required="true">
+                 <option value="100">£100</option>
+				 <option value="150">£150</option>
+                 <option value="200">£200</option>
+				 <option value="250">£250</option>
+                 <option value="300">£300</option>
+                 <option value="350">£350</option>
+                 <option value="400">£400</option>
+                 <option value="450">£450</option>
+                 <option value="500">£500</option>
+                 <option value="550">£550</option>
+                 <option value="600">£600</option>
+                 <option value="650">£650</option>
+                 <option value="700">£700</option>
+                 <option value="750">£750</option>
+                 <option value="800">£800</option>
+                 <option value="850">£850</option>
+                 <option value="900">£900</option>
+                 <option value="950">£1600</option>
+                 <option value="1000">£1000</option>
+                 <option value="1050">£1050</option>
+                 <option value="1100">£1100</option>
+                 <option value="1150">£1150</option>
+				 <option value="1200">£1200</option>
+                 <option value="1250">£1250</option>
+                 <option value="1300">£1300</option>
+                 <option value="1350">£1350</option>
+                 <option value="1400">£1400</option>
+                 <option value="1450">£1450</option>
+                 <option value="1500">£1500</option>
+                 <option value="1550">£1550</option>
+                 <option value="1600">£1600</option>
+                 <option value="1650">£1650</option>
+                 <option value="1700">£1700</option>
+                 <option value="1750">£1750</option>
+				 <option value="1800">£1800</option>
+				 <option value="1850">£1850</option>
+				 <option value="1900">£1900</option>
+				 <option value="1950">£1950</option>
+				 <option value="2000">£2000</option>
+            </select>
+            
+        
+        </div> <!-- /Field contain -->
+        <button type="submit" onclick="ShowResults()" data-theme="a">Search</button>
+        <b><center><h2 for="searchResults">Search Results</h2></center></b>
+        <span id="searchResults">
+        <table data-role="table" id="searchTable" data-mode="reflow" class="ui-responsive" width="100%">
+           <tr><thead>
+                   <th>Property Type</th>
+                   <th>Number of Bedrooms</th>
+                   <th>Furnishing type</th>
+                   <th>Monthly Rent Price</th>
+                   <th>Date</th>
+                   <th>Notes</th>
+                   <th>Reporter</th>
+				   <th>VR</th>
+                   <th>Edit Notes</th>
+               </thead>
+            </tr>
+        </table>
+        </span>
+        
+	</div><!-- /content -->
+    
+    <div data-role="footer" data-position="fixed" data-theme="b" style="overflow:hidden;">
+            <div data-role="navbar">
+                <ul>
+                    <!--<li><a href="index.html">Home</a></li>-->
+                    <li><a href="Add.html">Add</a></li>
+                    <li><a href="Manage.html">Manage</a></li>
+                    <!--<li><a href="Search.html">Search</a></li>-->
+                
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+
+</div><!-- /page -->
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
