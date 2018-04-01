@@ -230,7 +230,8 @@ function getPropertyDetails() {
             for (var i = 0; i < result.rows.length; i++) {
               var row = result.rows.item(i);
                 $('#pDetails').append(
-				'<br />' + '<h3> Property Type </h3>'+ row.ppty_type + '<br />' + row.ppty_rooms + 
+				'<br />' + '<h3> Property Type </h3>'+ row.ppty_type +
+				'<br />' + '<h3> Number of Bedrooms </h3>'+ row.ppty_rooms +
 				'<br />' + '<h3> Furnishing Type </h3>'+ row.ppty_furniture_type + 
 				'<br />' + '<h3> Monthly Rent Price </h3>'+ '£' + row.ppty_monthly_price  + 
 				'<br />' + '<h3> Date </h3>'+ row.ppty_date + 
